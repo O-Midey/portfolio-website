@@ -84,7 +84,7 @@ div.hero {
 
 .hero p {
   font-family: "Noto Sans Mono", monospace;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: var(--mint);
   font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
 }
@@ -109,9 +109,9 @@ div.hero {
 p.header--intro {
   width: 100%;
   font-family: var(--poppins);
-  margin-top: 30px;
-  font-size: clamp(12px, 5vw, 20px);
-  color: var(--lightest-slate);
+  margin-top: 40px;
+  font-size: clamp(10px, 3.5vw, 20px);
+  color: var(--slate);
   font-weight: lighter;
 }
 
