@@ -99,7 +99,7 @@ div.hero {
 
 p.header--intro {
   width: 100%;
-  font-family: "Poppinsg";
+  font-family: "Poppins";
   margin-top: 40px;
   font-size: clamp(1.5rem, 3vw, 2rem);
   color: var(--slate);
