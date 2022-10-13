@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;300;400;500;700;800&display=swap");
-@import url("http://fonts.cdnfonts.com/css/calibre");
+@import url("http://fonts.cdnfonts.com/css/calibre?styles=36566,36570,36562,36564,36568,36560,36558");
 
 :root {
   --poppins: "Calibre", sans-serif;
@@ -72,9 +72,6 @@ nav img {
 
 h1.logo {
   margin-right: auto;
-  font-size: clamp(1em, 2.5vw, 40px);
-  color: #64ffda;
-  font-family: "Josefin Sans", sans-serif;
 }
 
 .nav--links a {
@@ -96,7 +93,7 @@ div.hero {
 .hero h2 {
   font-family: var(--poppins);
   font-weight: 600;
-  font-size: clamp(30px, 7vw, 40px);
+  font-size: clamp(30px, 8vw, 70px);
   font-weight: 600;
 }
 
@@ -110,8 +107,10 @@ div.hero {
 }
 
 p.header--intro {
-  font-family: "Calibre";
-  margin-top: 2.5em;
+  width: 100%;
+  font-family: var(--poppins);
+  margin-top: 10px;
+  font-size: clamp(14px, 5vw, 20px);
   color: var(--lightest-slate);
 }
 
