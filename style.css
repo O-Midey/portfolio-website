@@ -84,9 +84,9 @@ div.hero {
 
 .hero p {
   font-family: "Noto Sans Mono", monospace;
-  margin-bottom: 20px;
+  margin: 20px 0;
   color: var(--mint);
-  font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
+  font-size: clamp(1.25rem, 1.5vw, 1.5rem);
 }
 
 .hero h1,
@@ -110,13 +110,13 @@ p.header--intro {
   width: 100%;
   font-family: var(--poppins);
   margin-top: 40px;
-  font-size: clamp(10px, 3.5vw, 20px);
+  font-size: clamp(1.5rem, 3vw, 2rem);
   color: var(--slate);
   font-weight: lighter;
 }
 
 div.stacks-images {
-  margin-top: 5em;
+  margin-top: -20px;
   display: flex;
   align-items: center;
   justify-content: space-around;
