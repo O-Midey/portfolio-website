@@ -127,6 +127,22 @@ div.stacks-images img:hover {
   filter: none;
 }
 
+button.to-github {
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  text-align: left;
+  font-family: var(--mono);
+  color: var(--mint);
+  border: 2px solid var(--mint);
+  transition: 0.5s ease;
+}
+
+button.to-github:hover,
+button.to-github:focus {
+  letter-spacing: 3px;
+}
+
 main {
   padding: 30px;
 }
