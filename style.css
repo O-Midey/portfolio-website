@@ -63,7 +63,7 @@ nav {
   padding: 0 15px;
   display: flex;
   align-items: center;
-  margin-top: -50px;
+  margin-top: -60px;
 }
 
 nav img {
@@ -86,7 +86,7 @@ div.hero {
   font-family: "Noto Sans Mono", monospace;
   margin: 20px 0;
   color: var(--mint);
-  font-size: clamp(1.25rem, 1.5vw, 1.5rem);
+  font-size: clamp(1.45rem, 1.5vw, 1.6rem);
 }
 
 .hero h1,
