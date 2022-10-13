@@ -112,7 +112,6 @@ p.header--intro {
   margin-top: 40px;
   font-size: clamp(1.5rem, 3vw, 2rem);
   color: var(--slate);
-  font-weight: lighter;
 }
 
 div.stacks-images {
