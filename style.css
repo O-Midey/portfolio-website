@@ -110,6 +110,7 @@ div.hero {
 }
 
 p.header--intro {
+  font-family: "Calibre";
   margin-top: 2.5em;
   color: var(--lightest-slate);
 }
@@ -118,11 +119,10 @@ div.stacks-images {
   margin-top: 5em;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 div.stacks-images img {
-  filter: grayscale(90%);
   transition: 0.3s ease;
 }
 
