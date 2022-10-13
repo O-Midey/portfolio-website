@@ -105,8 +105,14 @@ p.header--intro {
   color: var(--slate);
 }
 
+i.fa-brands {
+  font-size: 32px;
+  font-size: clamp(20px, 40%, 32px);
+  color: var(--mint);
+}
+
 div.stacks-images {
-  margin-top: -20px;
+  margin-top: -100px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -122,9 +128,6 @@ div.stacks-images img:hover {
 
 main {
   padding: 30px;
-}
-
-@media screen and (min-width: 480px) {
 }
 
 /* The Overlay (background) */
